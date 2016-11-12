@@ -1,6 +1,6 @@
 <?php
 
-class Tag
+class mPDF_Tag
 {
 
 	private $mpdf;

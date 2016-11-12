@@ -1361,7 +1361,7 @@ class mPDF
 			$this->StartProgressBarOutput($this->progressBar);
 		} // *PROGRESS-BAR*
 
-		$this->tag = new Tag($this);
+		$this->tag = new mPDF_Tag($this);
 	}
 
 	function _setPageSize($format, &$orientation)
